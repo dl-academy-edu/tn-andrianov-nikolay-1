@@ -29,30 +29,106 @@
 
     <main>
         <section>
-            <h1>Category Products</h1>
-            <a href="index.html" class="bredcrumbs">Home</a>
-            <a href="toys.html" class="bredcrumbs">Catalog</a>
-        <ul>
-            <li><a href="APPARELKIDS.html" class="сategory">APPAREL KIDS</a></li>
-            <li><a href="HOLIDAYSHOP.html" class="сategory">HOLIDAY SHOP</a></li>
-            <li><a href="TOYS.html" class="сategory">TOYS</a></li>
-            <li><a href="ACCESSORIES.html" class="сategory">ACCESSORIES</a></li>
-            <li><a href="SALE.html" class="сategory">SALE</a></li>
-            <li><a href="APPARELADULTS.html" class="сategory">APPAREL ADULTS</a></li>
-        </ul>
+            <h1 class="tittle">Toy for kids</h1>
+            <div class="bredcrumbs">
+                <a href="index.html" class="bredcrumbs">Home</a>
+                <a href="catalog.html" class="bredcrumbs">Catalog</a>
+                <a href="#" class="bredcrumbs">Toys</a>
+            </div>
         </section>
-        <section> 
-            <h2>Product Description</h2>
-            <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really<br>cry. You can even bathe her, just like a little sister.</p>
-            <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a<br>doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-            <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a<br>pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the<br>other for her young mistress.</p> 
-        </section>   
+
+        <section class="filter">
+            <form action="#">
+                <div>
+                    <p>Cost</p>    
+                </div>
+                <div class="color">    
+                    <p>Color</p>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="check-black" name="Black">
+                            <label for="check-black">Black</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="check-blue" name="Blue">
+                            <label for="check-blue">Blue</label>
+                        </li> 
+                        <li>
+                            <input type="checkbox" id="check-green" name="Green">
+                            <label for="check-green">Green</label>
+                        </li> 
+                        <li>
+                            <input type="checkbox" id="check-white" name="Black">
+                            <label for="check-white">White</label>
+                        </li>
+                    </ul>
+                </div> 
+                <div class="Delivery">
+                    <ul>
+                        <li>
+                            <input type="radio" id="radio-free shipping" name="shipping">
+                            <label for="radio-free shipping">Free shipping</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="radio-fast shipping" name="shipping">
+                            <label for="fast shipping">Fast shipping</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="amount">
+                    <p>Amount</p>
+                </div>
+                <button type="submit">Apply</button>
+            </form> 
+        </section>
+
+        <section class="menu">
+            <ul>
+                <li>
+                    <img src="images/toys/image1.png" alt="#">
+                    <p>SHARKY BEAN BAG CHAIR COVER</p>
+                    <p>$60.00 USD</p>
+                </li>
+                <li>
+                    <img src="images/toys/image2.png" alt="#">
+                    <p>GATCHA GATCHA GUMBALL MACHINE</p>
+                    <p>$56.00 USD</p>
+                </li>
+                <li>
+                    <img src="images/toys/image3.png" alt="#">
+                    <p>BRASS DECO FRAMES</p>
+                    <p>$66.00 USD</p>
+                </li>
+                <li>
+                    <img src="images/toys/image4.png" alt="#">
+                    <p>CHRISTMAS ADVENT SCENTED CANDLE</p>
+                    <p>$29.00 USD</p>
+                </li>
+                <li>
+                    <img src="images/toys/image5.png" alt="#">
+                    <p>CIBO FULL APRON</p>
+                    <p>$60.00 USD</p>
+                </li>
+                <li>
+                    <img src="images/toys/image6.png" alt="#">
+                    <p>TANGLE SPINNING TEA LIGHT</p>
+                    <p>$56.00 USD</p>
+                </li>
+            </ul>
+            <div class="nextpage">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </div>
+
+        </section>
     </main>
 
     <footer class="footer">
         <div class="footer-left">
             <p>Navigation</p>
-            <ul class="Nav">
+            <ul class="nav">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Design Services</a></li>
@@ -64,7 +140,7 @@
         </div>
         <div class="footer-centr">
             <p>Customer Information</p>
-            <ul class="Info">
+            <ul class="info">
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Sale Exclusions</a></li>
                 <li><a href="#">Shipping & Returns</a></li>
@@ -75,13 +151,11 @@
             <p>Copyright © 2018 Dlk • Design Life Kids</p>
         </div>
         <div class="footer-right">
-                <p>Connect</p>
+            <p>Connect</p>
             <div>
                 <input type="text" placeholder="email">
                 <button type="submit">submit</button>
             </div>
-
-
 
             <ul>
                 <li><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,5 +182,6 @@
             <p>Web Design — Direct Line Development</p>
         </div>
     </footer>
-</BODY>
-</html> 
+</body>
+</html>
+                                                                                                                                                                                                                                                                                    
