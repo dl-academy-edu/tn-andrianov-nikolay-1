@@ -86,3 +86,17 @@
     bottom: 11.54%;
     color: #1E0606;
 }
+.vector-left {
+    position: absolute;
+    background: url(../images/svg/vector-L.svg)no-repeat;
+    Width: 13px;
+    Height: 26px;
+}
+.vector-right {
+    position: absolute;
+    background: url(../images/svg/vector-L.svg)no-repeat;
+    Width: 13px;
+    Height: 26px;
+    left: 80%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
