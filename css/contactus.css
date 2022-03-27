@@ -1,5 +1,8 @@
+.contact-us {
+  
+}
+
 .contactus-tittle {
-    text-align: left;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -7,10 +10,15 @@
     line-height: 49px;
     text-transform: uppercase;
     color: #1E0606;
-    padding-left: 110px;
+    margin-top: 60px;
+    margin-left: 362px;
+
+
 }
 .bredcrumbs {
     display: flex;
+    padding-top: 15px;
+    padding-left: 252px;
 }
 .bredcrumbs1 {
     font-family: 'Crimson Text';
