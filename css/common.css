@@ -3,11 +3,10 @@
 }
 .container {
     max-width: 1180px;
-    width: 100%;
     margin: 0 auto;
 }
 
-.body {
+body {
     font-family: 'Open Sans', 'Arial', 'San serif';
     font-weight: 400;
     font-size: 16px;
@@ -15,20 +14,14 @@
     color: #1E0606;
 }
 
-.img {
+img {
     width: 100%;
     display: block;
 }
 
-.main {
-    position: relative;
-    width: auto;
-    background: #FFFFFF;
-}
 
 .dot {
     list-style-type: none;
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -86,7 +79,6 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    align-items: center;
     text-align: center;
     text-transform: uppercase;
     background: black;
@@ -165,45 +157,37 @@
 }
 .category-list {
     display:flex;
-    justify-content: space-between;
     padding-left: 0px;
 }
-
 .category-list1 {
     background: url(../images/svg/category1.svg)no-repeat;
-    width: 280px;
-    height: 270px;
 }
-
 .category-list2 {
     background: url(../images/svg/category2.svg)no-repeat;
-    width: 280px;
-    height: 270px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 23px;
 }
-
 .category-list3 {
     background: url(../images/svg/category3.svg)no-repeat;
-    width: 280px;
-    height: 270px;
+    margin-right: 20px;
 }
 
 .category-list4 {
     background: url(../images/svg/category4.svg)no-repeat; 
-    width: 280px;
-    height: 270px;
 }
 .category-list5 {
-    background: url(../images/svg/category5.svg);
-    width: 280px;
-    height: 270px;
+    background: url(../images/svg/category5.svg)no-repeat;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .category-list6 {
-    background: url(../images/svg/category6.svg);
-    width: 280px;
-    height: 270px;
+    background: url(../images/svg/category6.svg)no-repeat;
 }
 .category-list a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -217,20 +201,14 @@
     height: 270px;
 }
 .category-list1 a {
-    padding: 103px 75px;  
+    padding: 103px 75px;
 }
 .category-list2 a {
-    padding: 103px 63px ;
-}
-.category-list3 a {
-    padding: 119px 99px;
-}
-.category-list4 a {
-    padding: 119px 44px;
-}
-.category-list5 a {
-    padding: 119px 105px;
-}
-.category-list6 a {
+      padding: 103px 63px;
+}      
+  .category-list6 a {
     padding: 103px 63px;
 }
+    
+
+

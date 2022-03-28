@@ -1,245 +1,223 @@
-                        * {
-                            box-sizing: border-box;
-                        }
-                        
-                        
-                        
-                        .banner {
-                            display: inline-block;
-                            max-width: 1180px;
-                            width: 100%;
-                            height: 411px;
-                            background: #EEE4DB;
-                            margin-top: 129px;
-                        }
-                        
-                        .banner-tittle {
-                            font-weight: 700;
-                            font-size: 40px;
-                            line-height: 110%;
-                            color: #1E0606;
-                            padding-top: 89px;
-                            padding-left: 133px;
-                        }
-                        
-                        .text-banner {
-                            font-family: 'Crimson Text';
-                            font-style: italic;
-                            font-weight: 400;
-                            font-size: 20px;
-                            line-height: 25px;
-                            padding-top: 20px;
-                            padding-left: 133px;
-                        }
-                        
-                        .button-banner {
-                            position: absolute;
-                            margin-top: 20px;
-                            margin-left: 133px;
-                        }
-                        
-                        .banner-img {
-                            display: flex;
-                            position: absolute;
-                            width: 635.49px;
-                            height: 461px;
-                            top: 181px;
-                            right: 454px;
-                        }
-                        
-                        .banner1 {
-                            display: flex;
-                            align-items: center;
-                            width: 1180px;
-                            height: 39px;
-                            left: 110px;
-                            top: 603px;
-                            background-color: #C29974;
-                            font-weight: 700;
-                            font-size: 12px;
-                            line-height: 16px;
-                            text-transform: uppercase;
-                            color: #FFFFFF;
-                            text-align: center;
-                            padding: 11px 364px;
-                        }
-                        
-                        .category-tittle {
-                            font-weight: 700;
-                            font-size: 38px;
-                            line-height: 46px;
-                            text-transform: uppercase;
-                            color: #1E0606;
-                            margin-top: 90px;
-                        }
-                        
-                     
-                        .category-list1 a {
-                            padding: 103px 75px;  
-                        }
-                        .category-list2 a {
-                            padding: 103px 63px ;
-                        }
-                        .category-list3 a {
-                            padding: 119px 99px;
-                        }
-                        .category-list4 a {
-                            padding: 119px 44px;
-                        }
-                        .text-category {
-                            display: block;
-                            width: 580px;
-                            height: 44px;
-                            margin-top: 30px;
-                            margin-left: 210px;
-                        }
-                        
-                        .container-delivery {
-                            display: flex;
-                            justify-content: space-between;
-                            margin-top: 90px;
-                        }
-                        .delivery-list-container {
-                            display: block;
-                            margin-right: auto;
-                        }
-                        .title-delivery {
-                            font-family: 'Montserrat';
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 38px;
-                            line-height: 46px;
-                            text-transform: uppercase;
-                            color: #1E0606;
-                            padding-top: 5px;
-                            padding-left: 121px;
-                        }
-                        
-                        .delivery-list a {
-                            text-decoration: none;
-                            border: none;
-                            color: #1E0606;
-                        }
-                        
-                        .delivery-list1 {
-                            font-weight: 700;
-                            font-size: 26px;
-                            line-height: 32px;
-                            color: #1E0606;
-                            margin-top: 17px;
-                            margin-left: 79px;
-                        }
-                        .delivery-list2 {
-                            font-family: 'Crimson Text';
-                            font-style: italic;
-                            font-weight: 400;
-                            font-size: 26px;
-                            line-height: 32px;
-                            color: #1E0606;
-                            margin-top: 22px;
-                            margin-left: 79px;
-                          }
-                          .delivery-list3 {
-                            font-family: 'Crimson Text';
-                            font-style: italic;
-                            font-weight: 400;
-                            font-size: 26px;
-                            line-height: 32px; 
-                            color: #1E0606;
-                            margin-top: 22px;
-                            margin-left: 79px;
-                          }
-                          .delivery-text1 {
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 22px;
-                            color: #1E0606;
-                            margin-top: 30px;
-                            margin-left: 118px;
-                            
-                          }
-                        .delivery-text2 {
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 22px;
-                        color: #1E0606;
-                        margin-top: 15px;
-                        margin-left: 118px;
-                        margin-bottom: 26px;
-                        }
-                        .button-delivery {
-                         margin-left: 118px;
-                        }
-                        .invissible{
-                            display: none;
-                        }
-                        .partner-list {
-                        display: flex;
-                        justify-content: space-between;
-                        margin-top: 90px;
-                        margin-bottom: 116px;
-                        }
-                        .partner-list1 {
-                        margin-left: -42px;
-                        }
-                        .article-container {
-                        display: flex;
-                        }
-                        .article-container1 {
-                        width: 543px;
-                        background: #E1F0F7;
-                        margin-left: -1px;
-                        height: 292px;
-                        }
-                        
-                        .tittle-article {
-                        font-family: 'Montserrat';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 38px;
-                        line-height: 46px;
-                        text-transform: uppercase;
-                        color: #1E0606;
-                        margin-top: -24px;
-                        margin-left: 30px;
-                        }
-                       
-                      
-                        .text-article1 {
-                        font-family: 'Crimson Text';
-                        font-style: italic;
-                        font-weight: 400;
-                        font-size: 26px;
-                        line-height: 32px;
-                        color: #1E0606;
-                        padding-top: 10px;
-                        padding-left: 30px;
-                        padding-bottom: 10px;   
-                        }
-                        .text-article2 {
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 22px;
-                        color: #1E0606;
-                        padding-left: 30px;
-                        padding-bottom: 20px;
-                        padding-right: 30px;
-                        }
-                        .button-article {
-                        margin-left: 30px;
-                        }
-                        .text-article3 {
-                        font-weight: 400;
-                        font-size: 16px;            
-                        line-height: 22px;    
-                        color: #1E0606; 
-                        padding-top: 41px;
-                        padding-left: 30px;
-                        padding-bottom: 30px;
-                        padding-right: 30px;
-                        }
-                        .article-container1 img {
-                        margin-left: 30px;
-                        }
+* {
+    box-sizing: border-box;
+}
+.main {
+    position: relative;
+}
+.banner {
+    background: #EEE4DB;
+    margin-top: 129px;
+ }
+.banner-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 89px;
+}
+
+.banner-tittle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    padding-top: 89px;
+    padding-left: 133px;
+    width: 90%;
+}
+.banner-text {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-left: 133px;
+}
+.banner-button {
+    margin-top: 20px;
+    margin-left: 133px;
+}                       
+.banner-img {
+    width: 636px;
+    height: 461px;
+    margin-top: -45%;
+    margin-left: 38%;
+    margin-bottom: -1%;                   
+}
+.banner-bottom {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center; 
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 11px;
+    background: #C29974;
+}
+.category-tittle {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 90px;
+}
+.text-category {
+    display: block;
+    width: 580px;
+    height: 44px;
+    margin-top: 30px;
+    margin-left: 210px;
+}
+
+.container-delivery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.delivery-list-container {
+    display: block;
+    margin-right: auto;
+}
+.title-delivery {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    padding-top: 5px;
+    padding-left: 121px;
+}
+
+.delivery-list a {
+    text-decoration: none;
+    border: none;
+    color: #1E0606;
+}
+
+.delivery-list1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    margin-top: 17px;
+    margin-left: 79px;
+}
+.delivery-list2 {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    margin-top: 22px;
+    margin-left: 79px;
+  }
+  .delivery-list3 {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px; 
+    color: #1E0606;
+    margin-top: 22px;
+    margin-left: 79px;
+  }
+  .delivery-text1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-top: 30px;
+    margin-left: 118px;
+    
+  }
+.delivery-text2 {
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
+margin-top: 15px;
+margin-left: 118px;
+margin-bottom: 26px;
+}
+.button-delivery {
+ margin-left: 118px;
+}
+.invissible{
+    display: none;
+}
+.partner-list {
+display: flex;
+justify-content: space-between;
+margin-top: 90px;
+margin-bottom: 116px;
+}
+.partner-list1 {
+margin-left: -42px;
+}
+.article-container {
+display: flex;
+}
+.article-container1 {
+width: 543px;
+background: #E1F0F7;
+margin-left: -1px;
+height: 292px;
+}
+
+.tittle-article {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+margin-top: -24px;
+margin-left: 30px;
+}
+
+
+.text-article1 {
+font-family: 'Crimson Text';
+font-style: italic;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+color: #1E0606;
+padding-top: 10px;
+padding-left: 30px;
+padding-bottom: 10px;   
+}
+.text-article2 {
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
+padding-left: 30px;
+padding-bottom: 20px;
+padding-right: 30px;
+}
+.button-article {
+margin-left: 30px;
+}
+.text-article3 {
+font-weight: 400;
+font-size: 16px;            
+line-height: 22px;    
+color: #1E0606; 
+padding-top: 41px;
+padding-left: 30px;
+padding-bottom: 30px;
+padding-right: 30px;
+}
+.article-container1 img {
+margin-left: 30px;
+}
                     
+                     

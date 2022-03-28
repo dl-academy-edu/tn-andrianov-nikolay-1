@@ -100,3 +100,12 @@
     left: 80%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+.vector {
+    position: absolute;
+    background: url(../images/svg/Vectorstroke.svg)no-repeat;
+    width: 8px;
+    height: 12px;
+    background: #1E0606;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.breadcrumbs {}
