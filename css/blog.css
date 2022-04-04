@@ -88,24 +88,16 @@
 }
 .vector-left {
     position: absolute;
-    background: url(../images/svg/vector-L.svg)no-repeat;
+    background: url(../images/svg/vector-L.svg) no-repeat;
     Width: 13px;
     Height: 26px;
 }
 .vector-right {
     position: absolute;
-    background: url(../images/svg/vector-L.svg)no-repeat;
+    background: url(../images/svg/vector-L.svg) no-repeat;
     Width: 13px;
     Height: 26px;
     left: 80%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-.vector {
-    position: absolute;
-    background: url(../images/svg/Vectorstroke.svg)no-repeat;
-    width: 8px;
-    height: 12px;
-    background: #1E0606;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-.breadcrumbs {}
+

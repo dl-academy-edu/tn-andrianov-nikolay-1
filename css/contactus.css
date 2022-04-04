@@ -1,7 +1,3 @@
-.contact-us {
-  
-}
-
 .contactus-tittle {
     font-family: 'Montserrat';
     font-style: normal;
@@ -11,53 +7,33 @@
     text-transform: uppercase;
     color: #1E0606;
     margin-top: 60px;
-    margin-left: 362px;
-
+    margin-left: 0px;
 
 }
-.bredcrumbs {
+.wrapper-form {
     display: flex;
-    padding-top: 15px;
-    padding-left: 252px;
-}
-.bredcrumbs1 {
-    font-family: 'Crimson Text';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    color: #1E0606;
-    padding-left: 110px;
-}
-.bredcrumbs2 {
-    font-family: 'Crimson Text';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: capitalize;
-    color: #1E0606;
-    opacity: 0.5;
-    padding-left: 48px;
-}
-    
-.contactus-form {
-    max-width: 680px;
-    width: 100%;
-    height: 542px;   
-    background: #E5EAF8;
-    margin: 0 auto;
-    padding: 65px 40px;
-
+    justify-content: space-between;
 }
 .helpinfo {
-    left: 65%;
-    right: 7.86%;
-    top: 20.64%;
-    bottom: 76.34%;
-    position: relative;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin-top: 29px;
+}
+
+.help-text  {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #C29974;
+}
+input::placeholder {
     color: #1E0606;
 }
+.button-form { 
+    margin-top: 25px;
+}
+
